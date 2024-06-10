@@ -15,8 +15,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#orangeGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(132,122,130)',
@@ -30,8 +30,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(172,122,13)',
@@ -45,8 +45,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(12,12,173)',
@@ -61,8 +61,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(172,192,123)',
@@ -76,8 +76,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(112,142,123)',
@@ -92,8 +92,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(112,222,123)',
@@ -107,8 +107,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(212,122,130)',
@@ -123,8 +123,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(172,122,13)',
@@ -138,8 +138,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(12,122,13)',
@@ -154,8 +154,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(12,182,13)',
@@ -169,8 +169,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(172,12,13)',
@@ -188,8 +188,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 600,
-                balloonMaxHeight: 1000,
+                balloonMaxWidth: 500,
+                balloonMaxHeight: 700,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(12,12,123)',
