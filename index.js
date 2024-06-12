@@ -7,15 +7,26 @@ ymaps.ready(['Map', 'geoQuery'])
             });
 
             var myGeoObjects = new ymaps.GeoObjectCollection();
-
+            var width = window.screen.width;
+            console.log(width);
+            if (width < 1100) 
+                {
+                var bal_wid_max = 240;
+                var bal_hei_max =360;
+                }
+            else
+            {
+                var bal_wid_max = 900;
+                var bal_hei_max =700;
+            }
             var ignatovi = new ymaps.Placemark([53.798323, 36.146258],{ 
                 iconContent: 'Дом Игнатовых',
                 balloonContent: '<img style="width: 100%" src="https://static.tildacdn.info/tild3533-6665-4435-b936-383235313032/photo.jpg"/> <br> <p> <b>Михаил Пришвин</b> любил город Белёв с раннего детства, когда навещал вместе с матерью, Марией Ивановной, её родовое гнездо — дом Игнатовых на Берестовой улице в Завырье (теперь — один из корпусов ПУ-40 на ул. К. Маркса).</p>'
             },
 
             {
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#orangeGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(132,122,130)',
@@ -29,8 +40,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(172,122,13)',
@@ -44,8 +55,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(12,12,173)',
@@ -60,8 +71,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(172,192,123)',
@@ -75,8 +86,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 500,
-                balloonMaxHeight: 700,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(112,142,123)',
@@ -91,8 +102,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greenGlyphIcon',     
                 iconGlyph: 'home',
                 iconGlyphColor: 'rgb(112,222,123)',
@@ -106,8 +117,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(212,122,130)',
@@ -122,8 +133,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(172,122,13)',
@@ -137,8 +148,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(12,122,13)',
@@ -153,8 +164,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(12,182,13)',
@@ -168,8 +179,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(172,12,13)',
@@ -187,8 +198,8 @@ ymaps.ready(['Map', 'geoQuery'])
 
             {
                 
-                balloonMaxWidth: 400,
-                balloonMaxHeight: 500,
+                balloonMaxWidth: bal_wid_max,
+                balloonMaxHeight: bal_hei_max,
                 preset: 'islands#greyGlyphIcon',     
                 iconGlyph: 'user',
                 iconGlyphColor: 'rgb(12,12,123)',
