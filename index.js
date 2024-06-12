@@ -245,7 +245,7 @@ ymaps.ready(['Map', 'geoQuery'])
     // Обновляем список.
     var visibleElement = document.getElementById('visible');
     visibleElement.innerHTML =
-      '<ul style="display:flex; width:100%">' + visibleObjectsHtml.join('') + '</ul>'
+      visibleObjectsHtml.join('')
   }
 var kult = [['Дом Игнатовых', [53.798323, 36.146258]],
             ['Дом-музей Ясная Поляна', [54.075501, 37.526414]],
