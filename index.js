@@ -143,7 +143,7 @@ ymaps.ready(['Map', 'geoQuery'])
             
             var pushkin = new ymaps.Placemark([54.187506, 37.612173],{ 
                 iconContent: 'Бюст А.С. Пушкина',
-                balloonContent: '<img style="width: 100%" src="https://static.tildacdn.info/tild3065-3564-4561-b465-623832646439/noroot.png"/> <br> <p> В один день в Туле родились сразу три пушкинских места – <b>бюст писателю, Пушкинский сад и улица Пушкинская.</b><br>Также помимо бюста, сквера и улицы фанаты писателя могут найти в Туле <b>памятник героям сказок А.С. Пушкина</b>.</p>'
+                balloonContent: '<img style="width: 100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%D0%A2%D1%83%D0%BB%D0%B0%2C_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90.%D0%A1.%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D1%83.jpg/1200px-%D0%A2%D1%83%D0%BB%D0%B0%2C_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90.%D0%A1.%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D1%83.jpg"/> <br> <p> В один день в Туле родились сразу три пушкинских места – <b>бюст писателю, Пушкинский сад и улица Пушкинская.</b><br>Также помимо бюста, сквера и улицы фанаты писателя могут найти в Туле <b>памятник героям сказок А.С. Пушкина</b>.</p>'
             },
 
             {
@@ -174,7 +174,7 @@ ymaps.ready(['Map', 'geoQuery'])
 
             var esenin = new ymaps.Placemark([54.183875, 37.595849],{ 
                 iconContent: 'Памятник С.А. Есенину',
-                balloonContent: '<img style="width: 100%" src="https://static.tildacdn.info/tild3462-3039-4465-b139-303261623234/noroot.png"/> <br> <p> На доме по улице Коминтерна № 40 в память о пребывании Есенина в этом доме укреплена <b>мемориальная доска.</b><br>В Центральном парке Тулы установили <b>памятник писателю</b>.</p>'
+                balloonContent: '<img style="width: 100%" src="https://sun6-23.userapi.com/impg/_7EF7yYLG3mVuxhiULgP6pU4UPgWDrv4JeQZQg/IwAJCN0HtqU.jpg?size=807x605&quality=95&sign=a238269011e69b479fd64959f6b5fd60&c_uniq_tag=XKKZm5bOpx0p6DIPnTTve9FMy_cm9tNU64NVgMX6too&type=album"/> <br> <p> На доме по улице Коминтерна № 40 в память о пребывании Есенина в этом доме укреплена <b>мемориальная доска.</b><br>В Центральном парке Тулы установили <b>памятник писателю</b>.</p>'
             },
 
             {
