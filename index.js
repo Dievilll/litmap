@@ -202,7 +202,7 @@ ymaps.ready(['Map', 'geoQuery'])
             //myMap.geoObjects.add(geoObjects);
             
             geoObjectsQuery = ymaps.geoQuery(geoObjects);
-            console.log(geoObjectsQuery.getLength());
+            //console.log(geoObjectsQuery.getLength());
             geoObjectsQuery.searchInside(myMap).addToMap(myMap);
             // И затем добавим найденные объекты на карту.
             
@@ -246,7 +246,7 @@ ymaps.ready(['Map', 'geoQuery'])
     // Обновляем список.
     var visibleElement = document.getElementById('visible');
     visibleElement.innerHTML =
-      '<ul style="display:flex">' + visibleObjectsHtml.join('') + '</ul>'
+      '<ul style="display:flex; width:100%">' + visibleObjectsHtml.join('') + '</ul>'
   }
 var kult = [['Дом Игнатовых', [53.798323, 36.146258]],
             ['Дом-музей Ясная Поляна', [54.075501, 37.526414]],
@@ -261,7 +261,7 @@ var kult = [['Дом Игнатовых', [53.798323, 36.146258]],
             ['Памятник С.А. Есенину', [54.183875, 37.595849]],
             ['Памятник В.В. Вересаеву',[54.183706, 37.597008]]
         ];
-console.log(kult[0][0]);
+//console.log(kult[0][0]);
 function get_center_placemark(id) {
 
     var butt = document.getElementById(id);
@@ -270,7 +270,7 @@ function get_center_placemark(id) {
         var name = butt.getAttribute('name');
         if (name == kult[id][0])
         {
-            console.log(kult[id][1]);
+            //console.log(kult[id][1]);
             myMap.setCenter(kult[id][1]);
         }
     }
